@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0",
+  "notes": "First test build.\n\n- Sign in with Microsoft (several accounts), or a test offline account.\n- Instances for any Minecraft version with Fabric, Quilt, NeoForge or Forge.\n  Groups, favourites, icons, duplicate, play time.\n- Browse and install mods, resource packs and shaders from Modrinth, Cytra,\n  GitHub or a link. Dependencies are added for you, problems are flagged\n  before you play, and updates show their changelogs.\n- Import .mrpack, CurseForge and Prism/MultiMC packs, or copy instances from\n  Prism, MultiMC, the official launcher, the Modrinth App and the CurseForge app.\n  Export as .mrpack, CurseForge zip or a plain zip.\n- Worlds (details, notes, stats, backups), Litematica schematics, screenshots.\n- Servers with live status and one-click join.\n- Skins and capes with a 3D preview and a skin library.\n- Crash helper that explains common crashes, and one-click log sharing.\n- Shared Masa and Cytra settings across instances.\n- Storage clean-up and a Java manager.\n- Theme editor: layouts, colour schemes, your own colours, picture or video\n  backgrounds, fonts. Ctrl+K to jump anywhere.\n- While you play, Alloy closes its window to free memory and waits in the tray.",
+  "pub_date": "2026-10-14T18:53:13.529Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUpRb3VzSGduWnY4SmYxd2dmZkN4eWNnR0NtNEd4c2JOSDVNbXEwb21vSjdDc2tPVlJ0ZkV2R2lkZFAzVmJ3em1ibjNWcW5mWDJmNUN4cnhQbytrc1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDAyOTk3CWZpbGU6QWxsb3lfMC4xLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS4wCm42M3M5Sll0SmpkTG9BRkltclVpVUpBSkRWc1hIZEVtVWJ6OW5rbEVSWFJsSFdUeFRpT1ErNi9nN1Vud08yTFNFQk1tVmxZU29VQnFacVNBeFB6Y0RBPT0K",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.0/Alloy_0.1.0_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUpRb3VzSGduWnY4SmYxd2dmZkN4eWNnR0NtNEd4c2JOSDVNbXEwb21vSjdDc2tPVlJ0ZkV2R2lkZFAzVmJ3em1ibjNWcW5mWDJmNUN4cnhQbytrc1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDAyOTk3CWZpbGU6QWxsb3lfMC4xLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS4wCm42M3M5Sll0SmpkTG9BRkltclVpVUpBSkRWc1hIZEVtVWJ6OW5rbEVSWFJsSFdUeFRpT1ErNi9nN1Vud08yTFNFQk1tVmxZU29VQnFacVNBeFB6Y0RBPT0K",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.0/Alloy_0.1.0_x64-setup.exe"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUliMzRLT1BWdkJIQzRQZEo1QW1KeXprQURWcS92Y1dnOWtZK1poQ3VPT3BKTUFIZC9PNDdsZ0xsKzFGZTN3OXlYZmhHTFhhMjZFNnN4YXR1OVdHTndRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDAzOTg4CWZpbGU6QWxsb3lfMC4xLjBfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjowLjEuMApwbjFsVTkxallTRXBpTUdCR3RNaDU3VTN5SExOWHJLWVVRUllMenRUV1YrYzVTbUw1QTFMTFFCdWgxRE5qSDFPZmpFc1RuanE0U1FBU1BTaGdZeTlCZz09Cg==",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.0/Alloy_0.1.0_amd64.AppImage"
+    },
+    "linux-x86_64-appimage": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUliMzRLT1BWdkJIQzRQZEo1QW1KeXprQURWcS92Y1dnOWtZK1poQ3VPT3BKTUFIZC9PNDdsZ0xsKzFGZTN3OXlYZmhHTFhhMjZFNnN4YXR1OVdHTndRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDAzOTg4CWZpbGU6QWxsb3lfMC4xLjBfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjowLjEuMApwbjFsVTkxallTRXBpTUdCR3RNaDU3VTN5SExOWHJLWVVRUllMenRUV1YrYzVTbUw1QTFMTFFCdWgxRE5qSDFPZmpFc1RuanE0U1FBU1BTaGdZeTlCZz09Cg==",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.0/Alloy_0.1.0_amd64.AppImage"
+    }
+  }
+}
