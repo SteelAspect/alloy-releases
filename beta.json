@@ -1,23 +1,23 @@
 {
-  "version": "0.1.6",
-  "notes": "- Shared instance links are now web links (https://alloy.axpect.xyz/open#...),\r\n  so they're clickable in Discord and other chat apps. They open Alloy, or\r\n  offer the download if your friend doesn't have it yet.",
-  "pub_date": "2026-10-15T22:10:48.680Z",
+  "version": "0.1.7",
+  "notes": "### Fixed\r\n- A video background no longer crashes Alloy into a grey window on Linux. The AppImage now includes video support, and if the page ever crashes Alloy reloads it and turns the video off.\r\n- Choosing a big video as the background no longer freezes the window while it's copied.",
+  "pub_date": "2026-10-16T09:33:08.943Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MVBHNGVja1JtZ1lqajY2QVJwM0srR3ZjWnUrMW9TTmpsV2xSWklzY0h1VmVzZ0dYUStlVVNnak8xT0FlUktlUzRucU5CYkIxaVlQQ1d5MUM5WkE1WVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTAxNzQ5CWZpbGU6QWxsb3lfMC4xLjZfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjowLjEuNgo3OE5PSjFLTEFHQnpocWZUMHR3Tk16QlJlYWg0WXpIb2h0N3FrdzVDWGtzbFB0N3J0K3paTkovZ0NzalJHSnVsbHoySnl2Kzd1YXE3K25aQWh3WFBCQT09Cg==",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.6/Alloy_0.1.6_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUkvUWE0TWFjdHpvZmlWenpWZXhjWjhYNEdtU1V6YmJIbWw4YlA1angyajNGMWtCOVVEd1owUlBUVDJJN1dVYzE4QUZ3Q055ZUthZVJFSXQ2ZW42dHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTQyNzk2CWZpbGU6QWxsb3lfMC4xLjdfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjowLjEuNwphd2ZJNWh6Tml4R1NUNng2cDV5ZmZTcTl4M25wanZjQ2NMQkx3ZjVyQjA2NEFLU3ptNGNUVUZqQnZQTGxoNGxBTzlGM0lybFlKNWxSckdXU2toOGZDUT09Cg==",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.7/Alloy_0.1.7_amd64.AppImage"
     },
     "linux-x86_64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MVBHNGVja1JtZ1lqajY2QVJwM0srR3ZjWnUrMW9TTmpsV2xSWklzY0h1VmVzZ0dYUStlVVNnak8xT0FlUktlUzRucU5CYkIxaVlQQ1d5MUM5WkE1WVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTAxNzQ5CWZpbGU6QWxsb3lfMC4xLjZfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjowLjEuNgo3OE5PSjFLTEFHQnpocWZUMHR3Tk16QlJlYWg0WXpIb2h0N3FrdzVDWGtzbFB0N3J0K3paTkovZ0NzalJHSnVsbHoySnl2Kzd1YXE3K25aQWh3WFBCQT09Cg==",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.6/Alloy_0.1.6_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUkvUWE0TWFjdHpvZmlWenpWZXhjWjhYNEdtU1V6YmJIbWw4YlA1angyajNGMWtCOVVEd1owUlBUVDJJN1dVYzE4QUZ3Q055ZUthZVJFSXQ2ZW42dHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTQyNzk2CWZpbGU6QWxsb3lfMC4xLjdfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjowLjEuNwphd2ZJNWh6Tml4R1NUNng2cDV5ZmZTcTl4M25wanZjQ2NMQkx3ZjVyQjA2NEFLU3ptNGNUVUZqQnZQTGxoNGxBTzlGM0lybFlKNWxSckdXU2toOGZDUT09Cg==",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.7/Alloy_0.1.7_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MVBERkczNnZzUzF2SGh1NnBGUmx3S3l2cWpHUTZkYVBFWW4zWGxEc1A3dlB3VlpNd3RrcDVsTm1UdGR0c091VC9rRjRxT29LYVdneGN3aktqdDJHSWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTAyMjQyCWZpbGU6QWxsb3lfMC4xLjZfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS42CnZrcSszb1ZBZURRRGNPa3FyUVNuS3l4RmpEem5YNStpSGlrRS9TVjJZYjgvRVdIcEowWU1JczFKRTRJaTNCaUE2YTFUZU8vWlV6cGRpc08vT1pRaEF3PT0K",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.6/Alloy_0.1.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUY1b1RTZzNaMjBUMjFhM0Fyd1l0WDdsSjVONmN1OXlaRFBNUUE2ZnVRekt3MFQrdGlDOVRuUzEzYkFkc2dDZGdqQUtCYTVzR0NoZ3JsQ3Ztc2ZEZHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTQzMTgyCWZpbGU6QWxsb3lfMC4xLjdfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS43CmVqMVJuN3ZnNVNlUnpFNFkyQzVST2c2M1JpenVEaEU5bEZCRGJtZzNXSGNQNGZtS25JVkRCY2tUTldmMG44UGUzb0EwUTRCbEtIOWJiWndTWWhqZkN3PT0K",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.7/Alloy_0.1.7_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MVBERkczNnZzUzF2SGh1NnBGUmx3S3l2cWpHUTZkYVBFWW4zWGxEc1A3dlB3VlpNd3RrcDVsTm1UdGR0c091VC9rRjRxT29LYVdneGN3aktqdDJHSWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTAyMjQyCWZpbGU6QWxsb3lfMC4xLjZfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS42CnZrcSszb1ZBZURRRGNPa3FyUVNuS3l4RmpEem5YNStpSGlrRS9TVjJZYjgvRVdIcEowWU1JczFKRTRJaTNCaUE2YTFUZU8vWlV6cGRpc08vT1pRaEF3PT0K",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.6/Alloy_0.1.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUY1b1RTZzNaMjBUMjFhM0Fyd1l0WDdsSjVONmN1OXlaRFBNUUE2ZnVRekt3MFQrdGlDOVRuUzEzYkFkc2dDZGdqQUtCYTVzR0NoZ3JsQ3Ztc2ZEZHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTQzMTgyCWZpbGU6QWxsb3lfMC4xLjdfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS43CmVqMVJuN3ZnNVNlUnpFNFkyQzVST2c2M1JpenVEaEU5bEZCRGJtZzNXSGNQNGZtS25JVkRCY2tUTldmMG44UGUzb0EwUTRCbEtIOWJiWndTWWhqZkN3PT0K",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.7/Alloy_0.1.7_x64-setup.exe"
     }
   }
 }
