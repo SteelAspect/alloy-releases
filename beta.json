@@ -1,23 +1,23 @@
 {
-  "version": "0.1.11",
-  "notes": "### Fixed\r\n- Importing a shared instance no longer fails on one mod (\"… isn't a valid jar\"). Files that match Modrinth's or Cytra's checksum aren't second-guessed, a freshly downloaded file an antivirus is still holding is retried, and a mod that really can't be added becomes a note instead of cancelling the whole import.\r\n- The same file listed twice is only downloaded once.\r\n\r\n### Added\r\n- The import dialog shows its progress (\"34 of 113 files\"), and anything to add by hand is listed instead of squeezed into one line.\r\n- Cytra mods that were added by hand are now found on Cytra when a shared instance is imported.",
-  "pub_date": "2026-10-17T15:41:57.016Z",
+  "version": "0.1.12",
+  "notes": "### Fixed\n- The right-click and ⋯ menu on instance cards did nothing for Duplicate, Port to version, New group and Delete: the menu closed before the action could see which instance it was for.\n- \"Start anyway\" on the low-memory warning, deleting an instance from its card, and setting or renaming a group could silently do nothing for the same reason.",
+  "pub_date": "2026-10-17T16:25:25.959Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUFRcUp5WUFEZ05taG1VNHhlQTBma0VOenNhNGthSlZCQTB4NzMrVFV0Vkdqa2ZIZ2ltTXBGTWFlOWl0SEo1TEFvSy9KOENhQTBrZ2hTSWxQWGxlcUFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjUxMDYxCWZpbGU6QWxsb3lfMC4xLjExX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjExClVSNDFFUEpadmFOTldXSDJMbERqWVY1enRUaEtRSWhXdk43dHJzTzBYY0NRVzdWMDhncnNsYjFNNWQxeVUvQXZTRGlvZnVhUlpuK0MwblhaZ3lsVkRnPT0K",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.11/Alloy_0.1.11_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MU40Q2EybGVldGhXVmNsUWFnNEVOdHVpc0VSR01FSGFrdEQrcmpXTWNqamlseFpUdTR0SS83VG5ZZDVGbkRIRVFRT1kzUi9rS3FuVGtxaHVYSERRUUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjUzNjM5CWZpbGU6QWxsb3lfMC4xLjEyX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjEyCmVjdG54aTZSZ2hWUjlHQ1l2RVVXc3ladVFuUm5nMlBrOU9ZQ2NVd0xZdU9sTDFQZTZBMHpJR0JyTUhodHc2cjk4WGE1dzJWNHZldElZbHErYXFpT0NnPT0K",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.12/Alloy_0.1.12_amd64.AppImage"
     },
     "linux-x86_64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUFRcUp5WUFEZ05taG1VNHhlQTBma0VOenNhNGthSlZCQTB4NzMrVFV0Vkdqa2ZIZ2ltTXBGTWFlOWl0SEo1TEFvSy9KOENhQTBrZ2hTSWxQWGxlcUFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjUxMDYxCWZpbGU6QWxsb3lfMC4xLjExX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjExClVSNDFFUEpadmFOTldXSDJMbERqWVY1enRUaEtRSWhXdk43dHJzTzBYY0NRVzdWMDhncnNsYjFNNWQxeVUvQXZTRGlvZnVhUlpuK0MwblhaZ3lsVkRnPT0K",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.11/Alloy_0.1.11_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MU40Q2EybGVldGhXVmNsUWFnNEVOdHVpc0VSR01FSGFrdEQrcmpXTWNqamlseFpUdTR0SS83VG5ZZDVGbkRIRVFRT1kzUi9rS3FuVGtxaHVYSERRUUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjUzNjM5CWZpbGU6QWxsb3lfMC4xLjEyX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjEyCmVjdG54aTZSZ2hWUjlHQ1l2RVVXc3ladVFuUm5nMlBrOU9ZQ2NVd0xZdU9sTDFQZTZBMHpJR0JyTUhodHc2cjk4WGE1dzJWNHZldElZbHErYXFpT0NnPT0K",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.12/Alloy_0.1.12_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUNMZFpJMmFOVlE4T3JUazUzU3B5MFV2ME1rWGo5dG5xS0FVMUoycVpVOVpxbEExUnhSeVp0NXhicXp1bXlZbW5ObkhhVFp0NzlObU9seUF5TnJTandjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjUxNzEzCWZpbGU6QWxsb3lfMC4xLjExX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMTEKVzhLVUZWOVBXaGRucm9jZ1J6ZFJwNDBvbjNOTGNVRHVvM09FRy8xM0FSaGFUSHpDR3UwVnBKVEpzMFlHdmphUjRrOElKYVBpV1A0VjMzQ204NGRjQnc9PQo=",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.11/Alloy_0.1.11_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUZZTUswMFh2OGdMQWRoMHF6UWZHd0x6UGxpMURrOWxIVUpNZnVWVkdXbS9KK25aclEvUGpIM1piUEJwYU02aVZHZHBLL0t6dEFHbVFrVEphaEhwWEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjU0MzE4CWZpbGU6QWxsb3lfMC4xLjEyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMTIKTDh5NEdkckJGR0gzMm9kZWdNcTlhVmJRUnEvOU1HeUFlRHE4Sk5Zd2VSZWFVMm1pUlBvakxJYW94Z0plcTdyTzdNZUpZcFNCdXhweGZuUzBOR25YQlE9PQo=",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.12/Alloy_0.1.12_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUNMZFpJMmFOVlE4T3JUazUzU3B5MFV2ME1rWGo5dG5xS0FVMUoycVpVOVpxbEExUnhSeVp0NXhicXp1bXlZbW5ObkhhVFp0NzlObU9seUF5TnJTandjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjUxNzEzCWZpbGU6QWxsb3lfMC4xLjExX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMTEKVzhLVUZWOVBXaGRucm9jZ1J6ZFJwNDBvbjNOTGNVRHVvM09FRy8xM0FSaGFUSHpDR3UwVnBKVEpzMFlHdmphUjRrOElKYVBpV1A0VjMzQ204NGRjQnc9PQo=",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.11/Alloy_0.1.11_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUZZTUswMFh2OGdMQWRoMHF6UWZHd0x6UGxpMURrOWxIVUpNZnVWVkdXbS9KK25aclEvUGpIM1piUEJwYU02aVZHZHBLL0t6dEFHbVFrVEphaEhwWEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjU0MzE4CWZpbGU6QWxsb3lfMC4xLjEyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMTIKTDh5NEdkckJGR0gzMm9kZWdNcTlhVmJRUnEvOU1HeUFlRHE4Sk5Zd2VSZWFVMm1pUlBvakxJYW94Z0plcTdyTzdNZUpZcFNCdXhweGZuUzBOR25YQlE9PQo=",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.12/Alloy_0.1.12_x64-setup.exe"
     }
   }
 }
