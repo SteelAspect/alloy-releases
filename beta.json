@@ -1,23 +1,23 @@
 {
-  "version": "0.1.10",
-  "notes": "### Fixed\r\n- Video backgrounds play reliably: Alloy now asks the window itself whether it's focused (the page often missed the first focus and left the video paused).\r\n- Video backgrounds are lighter: no filter on the video unless blur is on, and no live glass blur over a moving video.\r\n- No more lines over background pictures: the faint scanline texture is gone, and an unblurred background no longer goes through a filter.\r\n\r\n### Changed\r\n- \"Pause blur and video while Alloy isn't the active window\" also pauses a video background (it always did before, whatever the setting said).",
-  "pub_date": "2026-10-17T15:08:24.738Z",
+  "version": "0.1.11",
+  "notes": "### Fixed\r\n- Importing a shared instance no longer fails on one mod (\"… isn't a valid jar\"). Files that match Modrinth's or Cytra's checksum aren't second-guessed, a freshly downloaded file an antivirus is still holding is retried, and a mod that really can't be added becomes a note instead of cancelling the whole import.\r\n- The same file listed twice is only downloaded once.\r\n\r\n### Added\r\n- The import dialog shows its progress (\"34 of 113 files\"), and anything to add by hand is listed instead of squeezed into one line.\r\n- Cytra mods that were added by hand are now found on Cytra when a shared instance is imported.",
+  "pub_date": "2026-10-17T15:41:57.016Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUk0eGo5bFI0cVdqVFRhY3FpSTVjTmJESVA5dDMxNk1uaHp4cS80WUZxVjdYb0VrS0NxeHFiN3Q4Rzc1TUhnczlMajZQdmxEdUxxMk51dHBFL1p6dkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjQ5NDU0CWZpbGU6QWxsb3lfMC4xLjEwX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjEwCkU3RWZsRkpYR1J6a3FmM21QWjVUTllHWndSeHVaaWNYaHBJQkpUTVp0K2lMQWRmaytDN0taUHdQMG91YXBzdVdQZjM4UHlFQ3ZueFRNUlhRS2tUUEFnPT0K",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.10/Alloy_0.1.10_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUFRcUp5WUFEZ05taG1VNHhlQTBma0VOenNhNGthSlZCQTB4NzMrVFV0Vkdqa2ZIZ2ltTXBGTWFlOWl0SEo1TEFvSy9KOENhQTBrZ2hTSWxQWGxlcUFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjUxMDYxCWZpbGU6QWxsb3lfMC4xLjExX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjExClVSNDFFUEpadmFOTldXSDJMbERqWVY1enRUaEtRSWhXdk43dHJzTzBYY0NRVzdWMDhncnNsYjFNNWQxeVUvQXZTRGlvZnVhUlpuK0MwblhaZ3lsVkRnPT0K",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.11/Alloy_0.1.11_amd64.AppImage"
     },
     "linux-x86_64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUk0eGo5bFI0cVdqVFRhY3FpSTVjTmJESVA5dDMxNk1uaHp4cS80WUZxVjdYb0VrS0NxeHFiN3Q4Rzc1TUhnczlMajZQdmxEdUxxMk51dHBFL1p6dkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjQ5NDU0CWZpbGU6QWxsb3lfMC4xLjEwX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjEwCkU3RWZsRkpYR1J6a3FmM21QWjVUTllHWndSeHVaaWNYaHBJQkpUTVp0K2lMQWRmaytDN0taUHdQMG91YXBzdVdQZjM4UHlFQ3ZueFRNUlhRS2tUUEFnPT0K",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.10/Alloy_0.1.10_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUFRcUp5WUFEZ05taG1VNHhlQTBma0VOenNhNGthSlZCQTB4NzMrVFV0Vkdqa2ZIZ2ltTXBGTWFlOWl0SEo1TEFvSy9KOENhQTBrZ2hTSWxQWGxlcUFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjUxMDYxCWZpbGU6QWxsb3lfMC4xLjExX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjExClVSNDFFUEpadmFOTldXSDJMbERqWVY1enRUaEtRSWhXdk43dHJzTzBYY0NRVzdWMDhncnNsYjFNNWQxeVUvQXZTRGlvZnVhUlpuK0MwblhaZ3lsVkRnPT0K",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.11/Alloy_0.1.11_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUwvNFI2VEFjc2hjOXB3eC8vNmdLVS8zUHV4c29pdWhGUkdoMGx4a2pId1FQUVdsZ0NZcjdSWi9BL0oydlhyZjRGNHJDdng3USt3SE9WbFd2bFJGTVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjQ5NzAxCWZpbGU6QWxsb3lfMC4xLjEwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMTAKMCtlSkdXa09sU3NLSEx0M25sZmFDOUowb2hRMERIbFZCRENnYnFuRFhVaWdBNWUzYWRMMmU2YjhhekVKNTNFOU9DeXo5aGpuZzA1Vm1EUGZBbVM0RHc9PQo=",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.10/Alloy_0.1.10_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUNMZFpJMmFOVlE4T3JUazUzU3B5MFV2ME1rWGo5dG5xS0FVMUoycVpVOVpxbEExUnhSeVp0NXhicXp1bXlZbW5ObkhhVFp0NzlObU9seUF5TnJTandjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjUxNzEzCWZpbGU6QWxsb3lfMC4xLjExX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMTEKVzhLVUZWOVBXaGRucm9jZ1J6ZFJwNDBvbjNOTGNVRHVvM09FRy8xM0FSaGFUSHpDR3UwVnBKVEpzMFlHdmphUjRrOElKYVBpV1A0VjMzQ204NGRjQnc9PQo=",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.11/Alloy_0.1.11_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUwvNFI2VEFjc2hjOXB3eC8vNmdLVS8zUHV4c29pdWhGUkdoMGx4a2pId1FQUVdsZ0NZcjdSWi9BL0oydlhyZjRGNHJDdng3USt3SE9WbFd2bFJGTVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjQ5NzAxCWZpbGU6QWxsb3lfMC4xLjEwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMTAKMCtlSkdXa09sU3NLSEx0M25sZmFDOUowb2hRMERIbFZCRENnYnFuRFhVaWdBNWUzYWRMMmU2YjhhekVKNTNFOU9DeXo5aGpuZzA1Vm1EUGZBbVM0RHc9PQo=",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.10/Alloy_0.1.10_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUNMZFpJMmFOVlE4T3JUazUzU3B5MFV2ME1rWGo5dG5xS0FVMUoycVpVOVpxbEExUnhSeVp0NXhicXp1bXlZbW5ObkhhVFp0NzlObU9seUF5TnJTandjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjUxNzEzCWZpbGU6QWxsb3lfMC4xLjExX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMTEKVzhLVUZWOVBXaGRucm9jZ1J6ZFJwNDBvbjNOTGNVRHVvM09FRy8xM0FSaGFUSHpDR3UwVnBKVEpzMFlHdmphUjRrOElKYVBpV1A0VjMzQ204NGRjQnc9PQo=",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.11/Alloy_0.1.11_x64-setup.exe"
     }
   }
 }
