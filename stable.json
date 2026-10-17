@@ -1,23 +1,23 @@
 {
-  "version": "0.1.9",
-  "notes": "### Added\r\n- Port to version: copy an instance to another Minecraft version or loader (instance ⋯ menu or right-click). Alloy finds each mod's version for the target on Modrinth, adds the mods they need, and shows a preview before anything is made. Betas are only used if you say so, and jars it can't identify can be kept as they are. Configs, keybinds and options (renamed settings mapped), and resource and shader packs come along. The original instance isn't changed and worlds are never copied. A report of what happened can be exported.\r\n\r\n### Changed\r\n- Alloy now waits and retries when Modrinth says it's getting too many requests, instead of failing.",
-  "pub_date": "2026-10-16T18:07:24.612Z",
+  "version": "0.1.10",
+  "notes": "### Fixed\r\n- Video backgrounds play reliably: Alloy now asks the window itself whether it's focused (the page often missed the first focus and left the video paused).\r\n- Video backgrounds are lighter: no filter on the video unless blur is on, and no live glass blur over a moving video.\r\n- No more lines over background pictures: the faint scanline texture is gone, and an unblurred background no longer goes through a filter.\r\n\r\n### Changed\r\n- \"Pause blur and video while Alloy isn't the active window\" also pauses a video background (it always did before, whatever the setting said).",
+  "pub_date": "2026-10-17T15:08:24.738Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MU9PQ2dOY1dKQ2dEbHNaTUx5b0hXMUNvK24rNXJTMFhJcjZCMlA1amRUaDhKVXA3NGZIcERZNGlCbXZxTldxbCtiMDk4Y1llTlhnSkY5aVl2VXVIbndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTczNTc4CWZpbGU6QWxsb3lfMC4xLjlfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjowLjEuOQpmakZWdnl3OXBwTldzTDhKT2VBa3pkUFp3SHFxN0VyMEpzK3VwQmtudVJ0bGpVWWx0N1dJTkhKRi9UUVBwUG5JNmpiOXEyUnhsNlhTVk5aK09helBDUT09Cg==",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.9/Alloy_0.1.9_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUk0eGo5bFI0cVdqVFRhY3FpSTVjTmJESVA5dDMxNk1uaHp4cS80WUZxVjdYb0VrS0NxeHFiN3Q4Rzc1TUhnczlMajZQdmxEdUxxMk51dHBFL1p6dkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjQ5NDU0CWZpbGU6QWxsb3lfMC4xLjEwX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjEwCkU3RWZsRkpYR1J6a3FmM21QWjVUTllHWndSeHVaaWNYaHBJQkpUTVp0K2lMQWRmaytDN0taUHdQMG91YXBzdVdQZjM4UHlFQ3ZueFRNUlhRS2tUUEFnPT0K",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.10/Alloy_0.1.10_amd64.AppImage"
     },
     "linux-x86_64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MU9PQ2dOY1dKQ2dEbHNaTUx5b0hXMUNvK24rNXJTMFhJcjZCMlA1amRUaDhKVXA3NGZIcERZNGlCbXZxTldxbCtiMDk4Y1llTlhnSkY5aVl2VXVIbndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTczNTc4CWZpbGU6QWxsb3lfMC4xLjlfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjowLjEuOQpmakZWdnl3OXBwTldzTDhKT2VBa3pkUFp3SHFxN0VyMEpzK3VwQmtudVJ0bGpVWWx0N1dJTkhKRi9UUVBwUG5JNmpiOXEyUnhsNlhTVk5aK09helBDUT09Cg==",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.9/Alloy_0.1.9_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUk0eGo5bFI0cVdqVFRhY3FpSTVjTmJESVA5dDMxNk1uaHp4cS80WUZxVjdYb0VrS0NxeHFiN3Q4Rzc1TUhnczlMajZQdmxEdUxxMk51dHBFL1p6dkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjQ5NDU0CWZpbGU6QWxsb3lfMC4xLjEwX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjEwCkU3RWZsRkpYR1J6a3FmM21QWjVUTllHWndSeHVaaWNYaHBJQkpUTVp0K2lMQWRmaytDN0taUHdQMG91YXBzdVdQZjM4UHlFQ3ZueFRNUlhRS2tUUEFnPT0K",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.10/Alloy_0.1.10_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUNtVUNtbERDM3FmNGQxbkQzV1FHUEZzVExnSlZZT2ZCVjhEQjc5S2xMVEVGbEF6Y0dRU2VjRjFmc1NmVDRHUXNjdnJ1ZnlLdTM0cTdsanhDMnF0VEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTc0MDM4CWZpbGU6QWxsb3lfMC4xLjlfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS45CmV2UWRHdXAyM1pFOUtTTkVueEwrcTlzZ3JpMlZFWldiejZnTUtEQWNvVXU2MFhYaWJIZXY5RS82Nm4vQ2xNZTJlNWZtRUUyV3dmR3dLQzgxdytpNERnPT0K",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.9/Alloy_0.1.9_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUwvNFI2VEFjc2hjOXB3eC8vNmdLVS8zUHV4c29pdWhGUkdoMGx4a2pId1FQUVdsZ0NZcjdSWi9BL0oydlhyZjRGNHJDdng3USt3SE9WbFd2bFJGTVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjQ5NzAxCWZpbGU6QWxsb3lfMC4xLjEwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMTAKMCtlSkdXa09sU3NLSEx0M25sZmFDOUowb2hRMERIbFZCRENnYnFuRFhVaWdBNWUzYWRMMmU2YjhhekVKNTNFOU9DeXo5aGpuZzA1Vm1EUGZBbVM0RHc9PQo=",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.10/Alloy_0.1.10_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUNtVUNtbERDM3FmNGQxbkQzV1FHUEZzVExnSlZZT2ZCVjhEQjc5S2xMVEVGbEF6Y0dRU2VjRjFmc1NmVDRHUXNjdnJ1ZnlLdTM0cTdsanhDMnF0VEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTc0MDM4CWZpbGU6QWxsb3lfMC4xLjlfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS45CmV2UWRHdXAyM1pFOUtTTkVueEwrcTlzZ3JpMlZFWldiejZnTUtEQWNvVXU2MFhYaWJIZXY5RS82Nm4vQ2xNZTJlNWZtRUUyV3dmR3dLQzgxdytpNERnPT0K",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.9/Alloy_0.1.9_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUwvNFI2VEFjc2hjOXB3eC8vNmdLVS8zUHV4c29pdWhGUkdoMGx4a2pId1FQUVdsZ0NZcjdSWi9BL0oydlhyZjRGNHJDdng3USt3SE9WbFd2bFJGTVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjQ5NzAxCWZpbGU6QWxsb3lfMC4xLjEwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMTAKMCtlSkdXa09sU3NLSEx0M25sZmFDOUowb2hRMERIbFZCRENnYnFuRFhVaWdBNWUzYWRMMmU2YjhhekVKNTNFOU9DeXo5aGpuZzA1Vm1EUGZBbVM0RHc9PQo=",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.10/Alloy_0.1.10_x64-setup.exe"
     }
   }
 }
