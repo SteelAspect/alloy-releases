@@ -1,23 +1,23 @@
 {
-  "version": "0.1.16",
-  "notes": "### Added\n- CurseForge, with your own API key (Settings → CurseForge). Alloy doesn't come with one: the key is checked with CurseForge, kept in your system's keyring and only sent to CurseForge.\n  - Search and install mods, resource packs, shaders and modpacks from CurseForge in Browse.\n  - CurseForge modpacks, and imported CurseForge zips, now come with their mods.\n  - Mods from CurseForge get update checks.\n  - Files whose authors only allow downloads on the CurseForge website are listed for you to get there.",
-  "pub_date": "2026-10-18T22:05:09.878Z",
+  "version": "0.1.17",
+  "notes": "### Added\n- FTB and ATLauncher modpacks in Browse → Modpacks, next to Modrinth and CurseForge. Every file is checked against the pack's checksums and only downloaded from the pack's own servers.\n- A skin gallery (Skins → Gallery): MineSkin's public skins, searchable. Preview one in 3D and add it to your library.\n- A log console page in the rail: any instance's live log, or its last log when the game isn't running; filter, wrap and upload to mclo.gs.\n- A new New instance dialog, laid out like Prism: name and group on top; a custom version (with a version table and filter), a file, another launcher, a copy, or a modpack from Modrinth, CurseForge, FTB or ATLauncher.",
+  "pub_date": "2026-10-18T22:25:12.693Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUVmbU53NDgwdk05SzBCc0VCbkpRdm56SEd6b1REV0U4YVAxQzk1MWw1NER3V2VmbUlkeERLTXBsZFl1QUlJdUg4MFRnMVhUaFRHNk9nRDhOdEFGT1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzYwNzkzCWZpbGU6QWxsb3lfMC4xLjE2X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjE2CktkM04rSHl2UlBIeDFIYk9jUCtRQ1FTNTFQL0pTS3I2Q0w0UW4rNWxPeUY5dURUTTZ6OWJzWmcrbTlybThhQytSQUpDNnN3VjdBK1BnYnh2RGlwY0FBPT0K",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.16/Alloy_0.1.16_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUVuVFREYStDMXVTUktzT0FQSkp3V0JOR3pDQjJGQjRWT3hxRnBjMVRLTUxhVkdQbkNkdnNPMkt4dnNoTUxNUDI1OWRpa0xvL0FwVmJiSEorNlozTkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzYyMjgzCWZpbGU6QWxsb3lfMC4xLjE3X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjE3CmpSeVVsZHM0VzhsUUxwS1RCM213a3JGbGtCWTA0U2FSeG40VUV4VXR2MGJJc0c4bUtaZDJ3bThxYVhuTE5vc3hoVGJzUnlBVUdZOFlYTlJKTlF6WkR3PT0K",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.17/Alloy_0.1.17_amd64.AppImage"
     },
     "linux-x86_64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUVmbU53NDgwdk05SzBCc0VCbkpRdm56SEd6b1REV0U4YVAxQzk1MWw1NER3V2VmbUlkeERLTXBsZFl1QUlJdUg4MFRnMVhUaFRHNk9nRDhOdEFGT1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzYwNzkzCWZpbGU6QWxsb3lfMC4xLjE2X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjE2CktkM04rSHl2UlBIeDFIYk9jUCtRQ1FTNTFQL0pTS3I2Q0w0UW4rNWxPeUY5dURUTTZ6OWJzWmcrbTlybThhQytSQUpDNnN3VjdBK1BnYnh2RGlwY0FBPT0K",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.16/Alloy_0.1.16_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUVuVFREYStDMXVTUktzT0FQSkp3V0JOR3pDQjJGQjRWT3hxRnBjMVRLTUxhVkdQbkNkdnNPMkt4dnNoTUxNUDI1OWRpa0xvL0FwVmJiSEorNlozTkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzYyMjgzCWZpbGU6QWxsb3lfMC4xLjE3X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjE3CmpSeVVsZHM0VzhsUUxwS1RCM213a3JGbGtCWTA0U2FSeG40VUV4VXR2MGJJc0c4bUtaZDJ3bThxYVhuTE5vc3hoVGJzUnlBVUdZOFlYTlJKTlF6WkR3PT0K",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.17/Alloy_0.1.17_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUFsc2lFMEpIZDdxeEJ6TFFiM25KazJnaFpmbXlaRmtUK0hMcnhZc01vbDE2cnQwcDVDRHpzVHl4alR0UkV0ZUJKZC9aaWFVUlhCdWh2MkN3SzAwWFEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzYxMTAyCWZpbGU6QWxsb3lfMC4xLjE2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMTYKZXgrcDBvTVU0TVFUVk5ReWl0cFpiUlk5ZXYvY0RHekMvUTBQYTF5SGR0anc3dXZlYnB3N2ovdHUyYUZscnQ4cllucjdyVzVzZGRpUUh3cHF3ZWNNRGc9PQo=",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.16/Alloy_0.1.16_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUxMUnhURkpQZmVRY2k2cWdkMFV6Y21KYm01a3JrMmtlU3d2dVF3OXp2bDN0aFJUTnFRc2hJU3pPVm9BYVRXTS9KU3U0YURrMEl4QUE1YnNRaTdRWkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzYyMzA3CWZpbGU6QWxsb3lfMC4xLjE3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMTcKMFNITHpMRnJ4bllXeTJhNmNkYUhWd3ZGalc3OEk2QVcxdU9NK3pzbjZnNmdFTEpENWRVekMzdzZNZUZkazQzSHhMVDVER0VPMFgwSGFVTitWZGtKQVE9PQo=",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.17/Alloy_0.1.17_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUFsc2lFMEpIZDdxeEJ6TFFiM25KazJnaFpmbXlaRmtUK0hMcnhZc01vbDE2cnQwcDVDRHpzVHl4alR0UkV0ZUJKZC9aaWFVUlhCdWh2MkN3SzAwWFEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzYxMTAyCWZpbGU6QWxsb3lfMC4xLjE2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMTYKZXgrcDBvTVU0TVFUVk5ReWl0cFpiUlk5ZXYvY0RHekMvUTBQYTF5SGR0anc3dXZlYnB3N2ovdHUyYUZscnQ4cllucjdyVzVzZGRpUUh3cHF3ZWNNRGc9PQo=",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.16/Alloy_0.1.16_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUxMUnhURkpQZmVRY2k2cWdkMFV6Y21KYm01a3JrMmtlU3d2dVF3OXp2bDN0aFJUTnFRc2hJU3pPVm9BYVRXTS9KU3U0YURrMEl4QUE1YnNRaTdRWkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzYyMzA3CWZpbGU6QWxsb3lfMC4xLjE3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMTcKMFNITHpMRnJ4bllXeTJhNmNkYUhWd3ZGalc3OEk2QVcxdU9NK3pzbjZnNmdFTEpENWRVekMzdzZNZUZkazQzSHhMVDVER0VPMFgwSGFVTitWZGtKQVE9PQo=",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.17/Alloy_0.1.17_x64-setup.exe"
     }
   }
 }
