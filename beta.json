@@ -1,23 +1,23 @@
 {
-  "version": "0.1.20",
-  "notes": "### Fixed\n- When Microsoft sign-in can't reach a server, the message now says which one and why (for example a firewall, VPN, antivirus or ad blocker blocking it), and the failure is written to Alloy's log. An answer Alloy couldn't read is no longer reported as a connection problem.",
-  "pub_date": "2026-10-20T09:54:57.222Z",
+  "version": "0.1.21",
+  "notes": "### Added\n- When the game crashes, a popup now appears on whatever page you're on: what most likely went wrong and how to fix it, a button to share the crash report (personal details removed), View log, the crash-reports folder, and Play again. If Alloy is minimised or in the tray, you also get a notification saying why it crashed.\n\n### Fixed\n- A crash is recognised even when the game exits with code 0 after writing a crash report.\n- Install on the Home page's Mods, Resource packs and Shaders cards now installs into that instance, not the last one you browsed for, and opens Browse on the right kind of content (an instance's Shaders or Resource packs tab does too).",
+  "pub_date": "2026-10-25T00:32:56.739Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUhZb1hUQ0t5ZFJocnhOdW15a0U0aGRoMWQwRlVJeFBxWkZIUGJGU0RqVHlDM2RmbHVNSE9jUWJHR2JHc2YwbnBOeVE2a0xwUHNPWnJrUnRzUk5COHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDg5MzQyCWZpbGU6QWxsb3lfMC4xLjIwX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjIwCkI5YjJxbFBPMlNhSUQxWEJFU2padUV6akw5NDVqWWZEWjEyVUEyaUUzSno4MEtpNHZYb2VpQzNaZ1ZDUmZtQnpHUk1WS0VzcmZUMStLVjl2WnVuYkNRPT0K",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.20/Alloy_0.1.20_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUx3Sy9MZW83czZjeDhETG9kUHNaQUFxRlZxVmtKemRzVG1tL3M3cmFEYUlnekRVTEJRc3lMK084QUpNcjZaOStRZHpPVkdXQXlibGZhc1A4TEtnNGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODg3ODI2CWZpbGU6QWxsb3lfMC4xLjIxX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjIxClZEVG5UK25LdU5VVGs1TzdyYUo4d1F3S1NQWVd3U3NraThlSWxXcHZOV0EyUC9YVG5nNk9BTEh4ckx6akZHZk9CeWpyZWhPeXZhbUVaRmtKUjZWa0FBPT0K",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.21/Alloy_0.1.21_amd64.AppImage"
     },
     "linux-x86_64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUhZb1hUQ0t5ZFJocnhOdW15a0U0aGRoMWQwRlVJeFBxWkZIUGJGU0RqVHlDM2RmbHVNSE9jUWJHR2JHc2YwbnBOeVE2a0xwUHNPWnJrUnRzUk5COHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDg5MzQyCWZpbGU6QWxsb3lfMC4xLjIwX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjIwCkI5YjJxbFBPMlNhSUQxWEJFU2padUV6akw5NDVqWWZEWjEyVUEyaUUzSno4MEtpNHZYb2VpQzNaZ1ZDUmZtQnpHUk1WS0VzcmZUMStLVjl2WnVuYkNRPT0K",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.20/Alloy_0.1.20_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUx3Sy9MZW83czZjeDhETG9kUHNaQUFxRlZxVmtKemRzVG1tL3M3cmFEYUlnekRVTEJRc3lMK084QUpNcjZaOStRZHpPVkdXQXlibGZhc1A4TEtnNGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODg3ODI2CWZpbGU6QWxsb3lfMC4xLjIxX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjIxClZEVG5UK25LdU5VVGs1TzdyYUo4d1F3S1NQWVd3U3NraThlSWxXcHZOV0EyUC9YVG5nNk9BTEh4ckx6akZHZk9CeWpyZWhPeXZhbUVaRmtKUjZWa0FBPT0K",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.21/Alloy_0.1.21_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUV2YUVGNm44a2JFZC83OG52TCszRFpvREYzYWlqTVNKOVorNWlpZlVnQ2xYM0l4SGFOZDhNZURYcmJNeWVBcWx3dE9jdzFyaXo2aCt0UE9nQUp2TUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDkwMDc1CWZpbGU6QWxsb3lfMC4xLjIwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMjAKbTZUUlJvbjZMNDVjT2VDbGo0T3cxT2l1NzNSZDFPRCs4SG1BZzlxR0cwaFVkTXRHbUhzcXNqYVJBN3U4UjFEZzNuQnFKNHpra2lyWlduNHFYdVdvQUE9PQo=",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.20/Alloy_0.1.20_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUNHZEx4Rm40QkxrcEhiMENjSkxMZXhBZE56d2NKYnVJd0NONjVNcVlyaElvM1R2MVdYTUgwNmlrL3lwTys0MUZWbjRKRy9jakxFd1dIYWpSZEl4anc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODg4MzcyCWZpbGU6QWxsb3lfMC4xLjIxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMjEKYzZ1cHZ5NWxEOStWMXlOelptTEJuR3hwUkZmYTRmUkhreVNDci9wa1oybWFWWDdQTlhQTEY1TGwzV3l2RGs2RVRNeTlCM0FmdWZNU0RxL0I1c1h6QUE9PQo=",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.21/Alloy_0.1.21_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUV2YUVGNm44a2JFZC83OG52TCszRFpvREYzYWlqTVNKOVorNWlpZlVnQ2xYM0l4SGFOZDhNZURYcmJNeWVBcWx3dE9jdzFyaXo2aCt0UE9nQUp2TUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDkwMDc1CWZpbGU6QWxsb3lfMC4xLjIwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMjAKbTZUUlJvbjZMNDVjT2VDbGo0T3cxT2l1NzNSZDFPRCs4SG1BZzlxR0cwaFVkTXRHbUhzcXNqYVJBN3U4UjFEZzNuQnFKNHpra2lyWlduNHFYdVdvQUE9PQo=",
-      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.20/Alloy_0.1.20_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ05BcnFkSnB0MUNHZEx4Rm40QkxrcEhiMENjSkxMZXhBZE56d2NKYnVJd0NONjVNcVlyaElvM1R2MVdYTUgwNmlrL3lwTys0MUZWbjRKRy9jakxFd1dIYWpSZEl4anc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODg4MzcyCWZpbGU6QWxsb3lfMC4xLjIxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMjEKYzZ1cHZ5NWxEOStWMXlOelptTEJuR3hwUkZmYTRmUkhreVNDci9wa1oybWFWWDdQTlhQTEY1TGwzV3l2RGs2RVRNeTlCM0FmdWZNU0RxL0I1c1h6QUE9PQo=",
+      "url": "https://github.com/SteelAspect/alloy-releases/releases/download/v0.1.21/Alloy_0.1.21_x64-setup.exe"
     }
   }
 }
